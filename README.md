@@ -25,3 +25,33 @@ Daily retail sales analysis for a single product: derive unit pricing, gross pro
 - GP per unit: GP / Quantity
 - Promo periods: identified via significant price drop vs rolling baseline + quantity lift
 - Elasticity (arc): E = (ΔQ / Q_avg) / (ΔP / P_avg) Compare promo vs matched pre‑promo baseline.
+
+## Tools Used
+Miro for project planning
+Snowflake for coding
+Microsoft Excel for Visualization & Insights
+Microsoft PowerPoint for presentation (20 min) - including a Gantt Chart to show project phases
+Google Looker for Dashboard mockup
+
+## Findings
+### Key Metrics & Performance
+- Total Sales: ~R186.9 million
+- Total Quantity Sold: 5,279,872 units
+- Average Unit Price: R35.40
+- Gross Profit Margin: -0.87% (costs slightly exceeded revenue, signaling need for cost optimization)
+
+### Elasticity Analysis
+- High Responsiveness: Elasticity = 2.90 (March–August) → Consumers highly sensitive to price changes.
+- Inverse Relationship: Elasticity = -1.39 (Feb–Oct) → Possibly influenced by external factors.
+- Minimal Responsiveness: Elasticity = 0.02 (Aug–Sept) → Price changes had negligible effect on demand.
+
+### Insights
+- Promotions significantly impacted demand during certain periods.
+- Negative gross margin suggests pricing or cost structure issues.
+- Correlation between price and quantity sold needs continuous monitoring.
+
+### Strategic Recommendations
+- Target Promotions during high elasticity periods for maximum impact.
+- Investigate Negative Elasticity periods to uncover external influences.
+- Improve Cost Structures to achieve positive margins.
+- Monitor Price–Quantity Correlation to refine pricing strategies.
